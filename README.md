@@ -56,7 +56,7 @@ CNAME                     custom domain for GitHub Pages (do not delete)
 
 ## Original WordPress site and backups
 
-A full backup of the original site (files and database) was taken on 2026-09-19, before it was taken down. It **not** in this repository.
+A full backup of the original site (files and database) was taken on 2026-09-19, before it was taken down. It is **not** in this repository.
 
 If the original ever has to be restored, it needs PHP 7.4 or older (the Canvas theme and one plugin break on PHP 8).
 
