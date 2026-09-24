@@ -1,4 +1,3 @@
-cat > /tmp/strip_comments.py <<'EOF'
 #!/usr/bin/env python3
 import re, sys, pathlib
 apply = '--apply' in sys.argv
@@ -37,5 +36,4 @@ for p in sorted(pathlib.Path('.').rglob('*.html')):
                 fh.write(s)
 print(('APPLIED' if apply else 'PREVIEW') + f": {blocks} blocks in {files} files, {comment_items} comment items removed")
 print('unbalanced (skipped):', problems if problems else 'none')
-EOF
-python3 /tmp/strip_comments.py
+

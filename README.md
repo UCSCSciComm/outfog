@@ -43,6 +43,7 @@ CNAME                     custom domain for GitHub Pages (do not delete)
 
 - Moved from WordPress hosting at Bluehost to GitHub Pages; `outfog.com` now points here.
 - Removed the Subscribe page and its menu link.
+- Removed the site Search, which depended on WordPress.
 - Updated menu links: **Science Notes** now goes to <https://ucsc-sciencenotes.org> and **About the Authors** goes to <https://scicom.ucsc.edu/students-and-alumni/scicom-students-and-alumni/>.
 - Removed the archived reader comments (327 comments in 382 comment and reply blocks on 364 pages), together with the "Comments Feed" links in every page's head.
 - Fixed broken image links in six December 2017 posts.
@@ -50,7 +51,6 @@ CNAME                     custom domain for GitHub Pages (do not delete)
 
 ## Known limitations
 
-- Anything that needed WordPress no longer works: the menu's search box, the subscribe form, comments.
 - Pages still load some scripts from other sites: WordPress's CDN (`c0.wp.com`, for jQuery and similar), Jetpack Stats (`stats.wp.com`), and Google Tag Manager / Analytics snippets from the original site. If any of those shut down, pages still display, but the scripts stop loading.
 - Links inside articles to other websites may have gone dead since the articles were published.
 
@@ -69,4 +69,4 @@ If the original ever has to be restored, it needs PHP 7.4 or older (the Canvas t
 
 Written by SciCom students, classes of 2011 to 2018. Thomas Sumner built the original WordPress site.
 
-Site migrated and maintained by Peter Aldhous, continuing lecturer, UCSC Science Communication program, paldhous\@ucsc.edu
+Site migrated and maintained by Peter Aldhous, continuing lecturer, UCSC Science Communication program, paldhous\@ucsc.edu.
